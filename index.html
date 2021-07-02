@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timer App</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+<!--onload="template()"-->
+	<div class="container">
+		<!--Heading-->
+		<h1 class="text-center my-5 heading">Timer App</h1>
+	</div>
+
+	<div class="container timer">
+			<div class="row name">
+				<div class="col-6">
+					<h4>Minutes</h4>
+				</div>
+				<div class="col-6">
+					<h4>Seconds</h4>
+				</div>
+			</div>
+			<div class="row time">
+				<div class="col-5">
+					<h4 id="minute">00</h4>	
+				</div>
+				<div class="col-2">
+					<h4>:</h4>	
+				</div>
+				<div class="col-5">
+					<h4 id="second">00</h4>
+				</div>
+				
+			</div>
+	</div>
+
+	<div class="container d-flex justify-content-center align-items-center my-5">
+		<button type="submit" id="start">Long Break</button>
+		<button type="submit" id="short">Short Break</button>
+	</div>
+	<div>
+	<a class="reload" href="index.html">Reload</a>
+</div>
+	<script src="popup.js"></script>
+</body>
+</html>
